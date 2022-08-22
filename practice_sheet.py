@@ -99,20 +99,28 @@
 
 # try accept fix for spelling error
 
-sh = input("Enter Hours: ")
-sr = input("Enter Rate: ")
-try:
-    fh = float(sh)
-    fr = float(sr)
-except:
-    print("Error, please enter numeric input")
-    quit() # quit stopped from throwing an error in the try and except block
+# sh = input("Enter Hours: ")
+# sr = input("Enter Rate: ")
+# try:
+#     fh = float(sh)
+#     fr = float(sr)
+# except:
+#     print("Error, please enter numeric input")
+#     quit() # quit stopped from throwing an error in the try and except block
 
-print(fh, fr)
-if fh > 40 :
-    reg = fr * fh
-    otp = (fh - 40) * (fr * 0.5)
-    xp = reg + otp
-else:
-    xp = fh * fr
-print("Pay:",xp)
+# print(fh, fr)
+# if fh > 40 :
+#     reg = fr * fh
+#     otp = (fh - 40) * (fr * 0.5)
+#     xp = reg + otp
+# else:
+#     xp = fh * fr
+# print("Pay:",xp)
+
+# Python Function
+
+big = max('Hello world')
+print(big) # Finds the w
+
+tiny = min('Hello world')
+print(tiny) # Finds the   (space)
