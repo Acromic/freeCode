@@ -1,23 +1,25 @@
-# Intermediate Expressions (Order of Operators)
-# Parenthesis
-# Power
-# Multiplication/Division
-# Addition/Subtraction
-# Left to right
+## Intermediate Expressions (Order of Operators)
+## Parenthesis
+## Power
+## Multiplication/Division
+## Addition/Subtraction
+## Left to right
 
-# exercise
+## exercise
+
 # width = 15
 # height = 12
 # print(height/3)
 
 
-# range and pass function
+## range and pass function
+
 # for i in range(1,5,2):
 #     pass
 # print(i)
 
 
-# Comparison Operators
+## Comparison Operators
 
 # x = 5
 
@@ -35,12 +37,12 @@
 #     print('Not equal 6')
 
 
-# Excercise 02 - 02
+## Excercise 02 - 02
 
 # nzt = ('Enter your name: ')
 # print("Hello",nzt)
 
-# Excerside 02 - 03
+## Excerside 02 - 03
 
 # xh = input("Enter Hours: ")
 # xr = input("Enter Rate: ")
@@ -53,9 +55,9 @@
 # master_of_craft = float(perfection) * float(grinder)
 # print("10,000's to Master my Craft", master_of_craft)
 
-# try / except
+## try / except
 
-# Example 1
+## Example 1
 
 # astr = 'Bob'
 # try:
@@ -67,7 +69,7 @@
 
 # print('Done', istr)
 
-# Example 2
+## Example 2
 
 # rawstr = input('Enter a number:')
 # try:
@@ -80,9 +82,9 @@
 # else:
 #     print('Not a number')
 
-# 03 - 02
+## 03 - 02
 
-# Code of hrs plus ot (it will error if you spell out ten though (str))
+## Code of hrs plus ot (it will error if you spell out ten though (str))
 
 # sh = input("Enter Hours: ")
 # sr = input("Enter Rate: ")
@@ -97,7 +99,7 @@
 #     xp = fh * fr
 # print("Pay:",xp)
 
-# try accept fix for spelling error
+## try accept fix for spelling error
 
 # sh = input("Enter Hours: ")
 # sr = input("Enter Rate: ")
@@ -117,10 +119,60 @@
 #     xp = fh * fr
 # print("Pay:",xp)
 
-# Python Function
+## Python Function A Built in
 
-big = max('Hello world')
-print(big) # Finds the w
+# big = max('Hello world')
+# print(big) # Finds the w
 
-tiny = min('Hello world')
-print(tiny) # Finds the   (space)
+# tiny = min('Hello world')
+# print(tiny) # Finds the   (space)
+
+## Creating a function (call and return)
+
+# x = 5
+# print('Hello')
+
+# def print_lyrics():
+#     print("I'm a lumberjack, and I'm Okay.")
+#     print('I sleep all night and I work all day.')
+
+# print('Yo')
+# print_lyrics()
+# x = x + 2
+# print(x)
+
+## Function parameters
+
+# def greet(lang):
+#     if lang == 'es':
+#         print('Hola')
+#     elif lang == 'fr':
+#         print('Bonjour')
+#     else:
+#         print('Hello')
+
+# greet('en')
+# greet('es')
+# greet('fr')
+
+## Functions return values
+
+# def greet():
+#     return "Hello"
+
+# print(greet(), "Glenn")
+# print(greet(), "Sally")
+
+## Fruitful function returning results or return value
+
+def greet(lang):
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return 'Bonjour'
+    else:
+        return 'Hello'
+
+print(greet('en'), 'Glenn')
+print(greet('es'),'Sally')
+print(greet('fr'),'Michael')
