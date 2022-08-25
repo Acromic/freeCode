@@ -194,7 +194,7 @@
 #     print('Rinse')
 # print('Dry off!')
 
-## Break in a loop
+## Break in a loop (need to type in the terminal)
 
 # while True:
 #     line = input('> ')
@@ -203,7 +203,7 @@
 #     print(line)
 # print('Done')
 
-## Finish iteration with continue
+## Finish iteration with continue (type in the therminal)
 # while True:
 #     line = input('> ')
 #     if line[0] == '#' :
