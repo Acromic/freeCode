@@ -165,14 +165,50 @@
 
 ## Fruitful function returning results or return value
 
-def greet(lang):
-    if lang == 'es':
-        return 'Hola'
-    elif lang == 'fr':
-        return 'Bonjour'
-    else:
-        return 'Hello'
+# def greet(lang):
+#     if lang == 'es':
+#         return 'Hola'
+#     elif lang == 'fr':
+#         return 'Bonjour'
+#     else:
+#         return 'Hello'
 
-print(greet('en'), 'Glenn')
-print(greet('es'),'Sally')
-print(greet('fr'),'Michael')
+# print(greet('en'), 'Glenn')
+# print(greet('es'),'Sally')
+# print(greet('fr'),'Michael')
+
+## While loop repeated steps 5,4,3,2,1
+
+# n = 5
+# while n > 0 :
+#     print(n)
+#     n = n - 1
+# print('Blastoff!')
+# print(n)
+
+## Infinite Loop (Don't use)
+
+# n = 5
+# while n> 0 :
+#     print('Lather')
+#     print('Rinse')
+# print('Dry off!')
+
+## Break in a loop
+
+# while True:
+#     line = input('> ')
+#     if line == 'done':
+#         break
+#     print(line)
+# print('Done')
+
+## Finish iteration with continue
+# while True:
+#     line = input('> ')
+#     if line[0] == '#' :
+#         continue
+#     if line == 'done' :
+#         break
+#     print(line)
+# print('Done!')
