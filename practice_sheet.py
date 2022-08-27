@@ -221,7 +221,27 @@
 
 ## Definite loop with strings
 
-friends = ['Joseph', 'Glenn', 'Sally']
-for friend in friends :
-    print('Happy New Year:', friend)
-print('Done!')
+# friends = ['Joseph', 'Glenn', 'Sally']
+# for friend in friends :
+#     print('Happy New Year:', friend)
+# print('Done!')
+
+## Loop idioms
+
+# Example 1
+# print('Before')
+# for thing in [9, 41, 12, 3, 74, 15] :
+#     print(thing)
+# print('After')
+
+# Example 2
+
+# largest_so_far = -1
+# print('Before', largest_so_far)
+# for the_num in [9, 41, 12, 3, 74, 15] :
+#     if the_num > largest_so_far :
+#         largest_so_far = the_num
+#     print(largest_so_far, the_num)
+
+# print('After', largest_so_far)
+
